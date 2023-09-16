@@ -31,7 +31,7 @@ body h1,h2,h3,h4,h5,h6 {
   }
 body {
     text-align: center;
-    grid-template: 3fr;
+    grid-template:  1fr 1fr 1fr;
 }
 section {
     grid-column: 1 / 3;
