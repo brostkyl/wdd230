@@ -2,6 +2,23 @@ main, nav, header, footer {
     max-width: 1000px;
     margin: auto;
 }
+
+.menu-hide, .menu-show{
+    display: none;
+    background-color: #83C5BE;
+    border: 1px #006D77;
+    margin: .5rem 0 0 .5rem
+}
+.menu-hide.showing, .menu-show.showing {
+    display: block;
+   }
+#nav-menu {
+    display: none;
+   }
+#nav-menu.showing {
+    display:flex;
+   }
+
 nav, footer {
     background-color: #006D77;
     padding: 20px 0px;
@@ -15,6 +32,7 @@ nav li {
         text-decoration: none;
         color: #EDF6F9;
         font-family: "Mooli", sans-serif;
+        display: none;
   }
 nav ul {
     padding-inline-start: 0px;
@@ -27,6 +45,21 @@ nav ul li {
     width: 100%;
 }
 nav li:hover {
+    background-color: #83C5BE;
+
+}
+
+#google-map {
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.show li {
+    display: block;
+}
+
+.active {
     background-color: #83C5BE;
 }
 /* header {

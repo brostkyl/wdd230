@@ -9,5 +9,18 @@
      main section {
        margin: 1rem .5rem;
      }
+     .menu-show, .menu-hide, .menu-hide.showing, .menu-show.showing {
+      display: none;
+     }
+     #nav-menu {
+      display: flex;
+     }
+     menu {
+      display: none;
+     }
+     #google-map{
+      width: 800px;
+      grid-column: 1/3;
+     }
      
 }

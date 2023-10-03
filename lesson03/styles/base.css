@@ -1,0 +1,36 @@
+header { 
+    background-color: 2D3442ff;
+}
+header h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #2D3442ff;
+    font-size: 8rem;
+    margin: 0px 10px 0px 10px;
+}
+header h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #3CB8CDff;
+    font-size: 3rem;
+}
+body {
+   background-color: #E8F5F9ff;
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
+}
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #1E6E34ff;
+    font-size: 2rem;
+}
+p, ul {
+    font-family: 'Roboto', sans-serif;
+    color: #2D3442ff;
+}
+/*$cinnabar: #F44E3Aff;
+$dark-spring-green: #1E6E34ff;
+$azure-web: #E8F5F9ff;
+$moonstone: #3CB8CDff;
+$gunmetal: #2D3442ff;
+$pumpkin: #F67A26ff;*/
+
