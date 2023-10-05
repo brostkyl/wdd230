@@ -2,6 +2,15 @@
      nav ul {
         flex-direction: row;
      }
+     nav ul li a {
+    list-style-type:none;
+    display: block;
+    width: 100%;
+}
+
+
+    
+     
      main {
         display: grid;
         grid-template-columns: 2fr 1fr;

@@ -25,7 +25,7 @@ nav, footer {
     text-align: center;
     color: #EDF6F9;
 }
-nav li {
+nav li a {
         text-align: center;
         background-color: #006D77;
         padding: 15px 0px 15px 0px;
@@ -34,17 +34,19 @@ nav li {
         font-family: "Mooli", sans-serif;
         display: none;
   }
+
+
 nav ul {
     padding-inline-start: 0px;
     display: flex;
     flex-direction: column;
 }
-nav ul li {
+nav ul li a {
     list-style-type:none;
     display: block;
     width: 100%;
 }
-nav li:hover {
+nav a:hover {
     background-color: #83C5BE;
 
 }
