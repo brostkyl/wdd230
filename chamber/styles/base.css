@@ -1,5 +1,9 @@
 #hero-image {
-
+     display: inline;
+     text-align:center;
+     margin: 0 auto;
+     padding:0px;
+     
 }
 footer {
     background-color: #006D77;
