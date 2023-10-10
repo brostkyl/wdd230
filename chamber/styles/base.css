@@ -1,0 +1,57 @@
+#hero-image {
+    display: block;
+    margin: auto;
+}
+footer {
+    background-color: #006D77;
+    padding: 20px 0px;
+    text-align: center;
+    color: #EDF6F9;
+}
+.home-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #2D3442ff;
+    font-size: 8rem;
+    margin: 0px 10px 0px 10px;
+}
+header h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #3CB8CDff;
+    font-size: 3rem;
+}
+body {
+   background-color: #E8F5F9ff;
+}
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #1E6E34ff;
+    font-size: 2rem;
+}
+p, ul {
+    font-family: 'Roboto', sans-serif;
+    color: #2D3442ff;
+}
+footer {
+    background-color: #F67A26;
+}
+#spotlights li {
+    background-color: #2D3442ff;
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/*$cinnabar: #F44E3Aff;
+$dark-spring-green: #1E6E34ff;
+$azure-web: #E8F5F9ff;
+$moonstone: #3CB8CDff;
+$gunmetal: #2D3442ff;
+$pumpkin: #F67A26ff;*/
+

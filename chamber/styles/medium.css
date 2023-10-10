@@ -1,0 +1,9 @@
+@media screen and (min-width:800px) {
+    #hero-image {
+        max-width: 50%;
+        max-height: 50%
+    }
+
+
+
+}
