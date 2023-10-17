@@ -1,8 +1,17 @@
 @media screen and (min-width:1000px) {
-#hero-image {
-
-width: 100%;
-}
-
+    #hero-image img {
+        width: 100%;
+        height: auto;
+    }
+    nav ul {
+        flex-direction: row;
+        list-style-type: none;
+     }
+     .menu-show, .menu-hide, .menu-hide.showing, .menu-show.showing {
+        display: none;
+       }
+     #nav-menu {
+        display: flex;
+       }
 
 }

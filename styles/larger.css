@@ -1,16 +1,9 @@
 @media screen and (min-width:800px) {
      nav ul {
         flex-direction: row;
+        list-style-type: none;
      }
-     nav ul li a {
-    list-style-type:none;
-    display: block;
-    width: 100%;
-}
 
-
-    
-     
      main {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -24,9 +17,7 @@
      #nav-menu {
       display: flex;
      }
-     menu {
-      display: none;
-     }
+
      #google-map{
       width: 800px;
       grid-column: 1/3;
