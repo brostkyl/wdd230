@@ -18,7 +18,7 @@ footer {
 header h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #2D3442ff;
-    font-size: 8rem;
+    font-size: 3rem;
     margin: 0px 10px 0px 10px;
 }
 header h2 {
@@ -78,8 +78,34 @@ nav ul li a {
     display: block;
     width: 100%;
 }
+
 nav a:hover {
-    background-color: #83C5BE;
+    background-color: #F44E3Aff;
+
+}
+#dark-mode {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background-color: var(--background-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    background-color: #1E6E34ff;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.hero h2::before {
+    content: "Small ";
 
 }
 

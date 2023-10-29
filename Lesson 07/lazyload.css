@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+body{
+    background-color: azure;
+}
+main{
+    width:400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+img {
+ width: 100%;
+ background-color: gray;
+}

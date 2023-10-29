@@ -3,6 +3,29 @@ const myimput = document.querySelector("#favchap")
 const mybutton = document.querySelector("#mybutton")
 const mylist = document.querySelector("#list")
 
+const chapters = getChapterList() || [];
+chapters.forEach(createItem)
+
+function getChapterList(){
+    const chapterList = localStorage.getItem('chapters')
+    if (chapterList == null){
+        return null
+    }
+    return JSON.parse(chapterList)
+
+}
+function updateLocalStorage(){
+    localStoarage.setItem
+}
+
+function createItem(chapter) {
+    let listitem = document
+}
+
+chapters.push(chapter);
+updateLocalStorage()
+
+
 mybutton.addEventListener("click", ()=>{
 
     if (myimput.value ==''){

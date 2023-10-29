@@ -5,5 +5,9 @@
     
     }
 
+    .hero h2::before {
+        content: "Medium ";
+    }
+
 
 }

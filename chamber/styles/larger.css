@@ -13,5 +13,25 @@
      #nav-menu {
         display: flex;
        }
+       nav ul li a {
+        text-align: center;
+        background-color: #2D3442ff;
+        padding: 15px 0px 15px 0px;
+        text-decoration: none;
+        color: #EDF6F9;
+        font-family: "Mooli", sans-serif;
+    }
+
+    .hero h2::before {
+        content: "Large ";
+    }
+
+    /*$cinnabar: #F44E3Aff;
+$dark-spring-green: #1E6E34ff;
+$azure-web: #E8F5F9ff;
+$moonstone: #3CB8CDff;
+$gunmetal: #2D3442ff;
+$pumpkin: #F67A26ff;*/
+    
 
 }
