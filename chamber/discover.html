@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-66MDVFHRB8"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-66MDVFHRB8');
+        </script>
+        <meta property="og:url"                content="https://brostkyl.github.io/wdd230/index.html">
+    <meta property="og:type"               content="webstie" />
+    <meta property="og:title"              content="Kylee Brost - WDD 230 - Web Frontend Development">
+    <meta property="og:description"        content="WDD 230 - Web Frontend Development, Kylee Brost, course assignment portal">
+    <meta property="og:image"              content="https://brostkyl.github.io/wdd230/images/kylee-brost-photo.png">
+    <title>Kylee Brost - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Kylee Brost, course assignment portal">
+    <meta name="author" content="Kylee Brost">
+    <link rel="icon" href="chamber/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css"> 
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/element-city-logo.png" alt="element city logo">
+        <h1>Element City Chamber of Commerce</h1>
+        <button id="dark-mode">DARK</button>
+
+    </header>
+    <nav>
+        <button class="menu-hide">X</button>
+        <button class="menu-show showing">&equiv;</button>
+        <ul id="nav-menu">
+            <li> <a class="active" href="#home">Home</a></li>
+            <li><a href="discover/">Discover</a></li>
+            <li><a href="directory/">Directory</a></li>
+            <li><a href="join/">Join</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+    <main id="main-home">
+        <section id="hero-image">
+        <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+        <img src="images/hero-large.webp" alt="friends sitting at table" width="2" heigth="1">
+        <!--img src="images/element-cityscape-banner.jpg" alt="Element City skyline header image"-->
+        </section>
+        <h2>Hero</h2>
+    </div>
+        <section id="cta" class="home-section">
+            <h2>Join the Team</h2>
+            <p>Join the Element City Chamber of Commerce today and become part of out colorful marketplace for growth and connections. </p>
+        </section>
+        <section id="current-events" class="home-section">
+            <h2>Current and Upcoming Events</h2>
+            <ul> 
+                <li>Breaking Down Barriers - A small business workshop for our new members to recieve coaching from some of the City's best!</li>
+                <li>Where the Rivers Meet - A two day Holiday celebration that celebrates the rich cultural background of all Element City residents feature many local businesses.</li>
+            </ul>
+        </section>
+        <section id="weather" class="home-section">
+            <h2>Weather</h2>
+            <h2><span id="temperature">76</span>&deg;F</h2>
+            <h2 id="weatherdesc">☀️ Sunny</h2>
+            <hr>
+            <h3>Wind Speed: <span id="windspeed">10</span> mph</h3>
+            <h3>Wind Chill: <span id="windchill">?</span>&deg;F</h3>
+            <p>Element City<br>
+                56% Humidity
+            </p>
+        </section>
+        <section id="spotlights" class="home-section">
+            <h2>Spotlights</h2>
+            <ul>
+            <li><img src="images/fireplace-spotlight.jpg" alt="Storefront of the Fireplace">Fireplace - This long burning firetown business recently celebrated it's grand reopening. Take a trip to firetown to enjoy the authentic Fireland cuisine and find unfamiliar treasures.</li>
+            <li><img src="images/city-hall-spotlight.jpg" alt="Image of city hall">City Hall - The beating heart behind the thriving market in Element City, the City Hall is your one stop shopfor gathering the resources you need to help your business grow it's roots down deep. </li>
+            <li><img src="images/glass-spotlight.jpg" alt="Ember creating glass vase">Melted heart Glass Works - This small business is starting to catch on fire. Straight from Firetown's bustling center, budding artist Ember Lumen, has recently opened up a shop selling her unique creations.</li>
+             </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span></p>
+        <p>Kylee Brost</p>
+        <p>Project for WDD230</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
