@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"                  content="width=device-width, initial-scale=1.0">
+    <meta property="og:url"                content="https://brostkyl.github.io/wdd230/index.html">
+    <meta property="og:type"               content="webstie" />
+    <meta property="og:title"              content="Kylee Brost - WDD 230 - Web Frontend Development">
+    <meta property="og:description"        content="WDD 230 - Web Frontend Development, Kylee Brost, course assignment portal">
+    <meta property="og:image"              content="https://brostkyl.github.io/wdd230/images/kylee-brost-photo.png">
+    <title>Kylee Brost - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Kylee Brost, course assignment portal">
+    <meta name="author" content="Kylee Brost">
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RMKYB9VMJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7RMKYB9VMJ');
+</script>
+</head>
+<body>
+    <nav>
+        <button class="menu-hide">X</button>
+        <button class="menu-show showing">&equiv;</button>
+        <ul id="nav-menu">
+            <li> <a class="active" href="#home">Home</a></li>
+            <li><a href="https://brostkyl.github.io/wdd230/lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a target="_blank" href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng#p20">Scripture</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/kylee-brost-photo.webp" alt="Picture of Kylee Brost">
+        <h1>Kylee Brost</h1>
+    </header>
+    <main id="form-main">
+        <form>
+            <fieldset>
+            <p><span id="message"></span></p>
+            <label>Username: <input id="username" name="username" type="text" required></label>
+            <label>Password: <input id="password" name="password" type="password" pattern="[/w]{8,}" required></label>
+            <label>Confirm: <input id="confirm" name="confirm" type="password" pattern="[/d|/w]{8,}" required></label>
+            <label>E-mail: <input id="email" name="email" type="email" pattern="[/w\.]+@byui\.edu$" title="Please enter a valid email address" required></label>
+            <label>Page Rating: <span id="currentrating">1</span> <input id="page-rating" name="page-rating" type="range" min="1" max="10" step="1" value="1"></label>
+            <datalist id="slidervalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <button>GO AND DO!!</button>
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span></p>
+        <p>Kylee Brost</p>
+        <p>Idaho, USA</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
