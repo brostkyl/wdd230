@@ -109,6 +109,48 @@ nav a:hover {
 
 }
 
+/*form styles */
+#membership-level {
+display: ;
+width: 1rem;
+
+
+}
+
+input {
+    display: block;
+    padding:.5rem;
+    font-size: 1.1rem;
+    width: 30rem;
+}
+label {
+    display: block;
+    margin: .5rem 0;
+    
+}
+
+button {
+    font-size: 1.5rem;
+    color:aliceblue;
+    background-color: #83C5BE;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+input:valid{
+    box-shadow: 3px 3px 3px black;
+}
+
+input:invalid{
+    box-shadow: 3px 3px 3px red;
+}
+/*end form styles*/
+
+#main-thankyou {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
 /*$cinnabar: #F44E3Aff;
 $dark-spring-green: #1E6E34ff;
 $azure-web: #E8F5F9ff;
