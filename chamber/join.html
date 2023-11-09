@@ -47,24 +47,26 @@
             <li><a href="join/">Join</a></li>
         </ul>
     </nav>
-
-        <form>
+    <main>
+        <h2>Join the Chamber today!</h2>
+        <p>Fill out the form below to become a part of our comunity and help us get to know your business. </p>
+        <form method="GET" action="thankyou.html">
             <fieldset>
             <p><span id="message"></span></p>
             <label>First Name: <input id="firstname" name="firstname" type="text" required></label>
             <label>Last Name: <input id="lastname" name="lastname" type="text" required></label>
-            <label>Title or Position: <input id="title" name="title" type="text" pattern="[/w]{7,}"></label>
+            <label>Title or Position: <input id="title" name="title" type="text" pattern="[A-Za-z\s\]{7,}"></label>
             <label>E-mail: <input id="email" name="email" type="email" title="example: name123@gmail.com" required></label>
             <label>Mobile Phone Number: <input attern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label>
             <label>Business or Organization's Name: <input id="businessname" name="businessname" type="text" required></label>
-            <label>Membership Level:
-                <input id="membership-level" name="np-membership" type="radio"><span id="np-membership">Non-Profit</span> 
-                <input id="membership-level" name="bronze-membership" type="radio"><span id="bronze-membership">Bronze Membership</span> 
-                <input id="membership-level" name="silver-membership" type="radio"><span id="silver-membership">Silver Membership</span> 
-                <input id="membership-level" name="gold-membership" type="radio"><span id="gold-membership">Gold Membership</span> 
-            </label>
-            <label>Business Description: <input id="description" name="description" type="textarea" ></label>
-            <input id="timestamp" type="time" name="timestamp">
+            <h3>Membership Level:</h3>
+                <label>Non-Profit<input name="membership-level" id="np-membership" type="radio"><span id="np-membership">Non-Profit</span></label>
+                <label>Bronze<input name="membership-level" id="bronze-membership" type="radio"><span id="bronze-membership">Bronze Membership</span></label>
+                <label>Silver<input name="membership-level" id="silver-membership" type="radio"><span id="silver-membership">Silver Membership</span></label>
+                <label>Gold<input name="membership-level" id="gold-membership" type="radio"><span id="gold-membership">Gold Membership</span></label>
+            
+            <label>Business Description: <input id="description" name="description" rows="5" type="textarea" ></label>
+            <input id="timestamp" type="hidden" name="timestamp" value="">
             <button>Join the chamber!</button>
         </fieldset>
         </form>

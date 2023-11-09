@@ -151,6 +151,10 @@ input:invalid{
     text-align: center;
 }
 
+.join {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
 /*$cinnabar: #F44E3Aff;
 $dark-spring-green: #1E6E34ff;
 $azure-web: #E8F5F9ff;
