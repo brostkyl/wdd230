@@ -14,18 +14,26 @@ footer {
     margin: auto;
     padding: 20px;
 }
+/* Header styles */
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
 
 header h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #2D3442ff;
     font-size: 3rem;
-    margin: 0px 10px 0px 10px;
 }
-header h2 {
+/*header h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #3CB8CDff;
     font-size: 3rem;
-}
+} */
+
+/* Homepage Styles */
 body {
    background-color: #E8F5F9ff;
 }
