@@ -1,16 +1,25 @@
+:root{
+    --text-color: #2D3442ff;
+    --background-color: #E8F5F9ff;
+    --hover-background-color: #F44E3Aff;    
+    --hover-color: #2D3442ff;
+    --heading-color: #1E6E34ff;
+    --h1-color: #2D3442ff;
+}
+
+/*$cinnabar: #F44E3Aff;
+$dark-spring-green: #1E6E34ff;
+$azure-web: #E8F5F9ff;
+$moonstone: #3CB8CDff;
+$gunmetal: #2D3442ff;
+$pumpkin: #F67A26ff;*/
+
 #hero-image img {
     width: 100%;
     height: auto;
 
 }
-footer {
-    background-color: #006D77;
-    padding: 20px 0px;
-    text-align: center;
-    color: #EDF6F9;
-}
 .home-section {
-    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
@@ -20,18 +29,29 @@ header{
     display: flex;
     position: relative;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 header h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #2D3442ff;
+    color: var(--h1-color);
     font-size: 3rem;
+    padding-left: 1.5rem;
 }
-/*header h2 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #3CB8CDff;
-    font-size: 3rem;
-} */
+header img{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #F67A26;
+    padding: 20px 0px;
+    text-align: center;
+    color: var(--text-color);;
+}
 
 /* Homepage Styles */
 body {
@@ -39,23 +59,32 @@ body {
 }
 h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #1E6E34ff;
+    color: var(--heading-color);
     font-size: 2rem;
 }
 p, ul {
     font-family: 'Roboto', sans-serif;
-    color: #2D3442ff;
+    color: var(--text-color);
 }
-footer {
-    background-color: #F67A26;
+#spotlights {
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
-#spotlights li {
+
+.spotlight-card {
     background-color: #2D3442ff;
     list-style-type: none;
     padding: 20px;
-    margin-bottom: 10px;
+    margin: 0px 10px 10px 10px;
+    color: white;
+    text-align: center;
+}
+.spotlight-card p {
     color: white;
 }
+
 
 .menu-hide, .menu-show{
     display: none;
@@ -96,6 +125,11 @@ nav a:hover {
     top: 1rem;
     right: 2rem;
     background-color: var(--background-color);
+    color: var(--text-color);
+}
+button #dark-mode {
+    display: none;
+    font-size: 1px;
 }
 
 .hero {
@@ -123,6 +157,10 @@ nav a:hover {
 width: 1rem;
 
 
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 input {
@@ -164,14 +202,6 @@ input:invalid{
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
-
-
-/*$cinnabar: #F44E3Aff;
-$dark-spring-green: #1E6E34ff;
-$azure-web: #E8F5F9ff;
-$moonstone: #3CB8CDff;
-$gunmetal: #2D3442ff;
-$pumpkin: #F67A26ff;*/
 
 /* Directory Page Stuff */
 .directory-main{

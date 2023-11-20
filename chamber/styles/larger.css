@@ -26,6 +26,13 @@
         content: "Large ";
     }
 
+
+    #spotlights {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
     /*$cinnabar: #F44E3Aff;
 $dark-spring-green: #1E6E34ff;
 $azure-web: #E8F5F9ff;

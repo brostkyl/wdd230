@@ -10,4 +10,10 @@
     }
 
 
+    #spotlights {
+        display: block;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
 }
