@@ -1,6 +1,6 @@
 const LAT = "43.830105";
 const LON = "-111.8293826";
-const APIKEY = "58b024a20b30691f82360a473eec4bc0";
+const APIKEY = "631f60a5da38f8113b914a44c75080a6";
 // const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
 const apiURL = "./data/weather.json";
 
