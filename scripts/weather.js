@@ -1,8 +1,8 @@
 const LAT = "43.830105";
 const LON = "-111.8293826";
 const APIKEY = "631f60a5da38f8113b914a44c75080a6";
-// const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
-const apiURL = "./data/weather.json";
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
+// const apiURL = "./data/weather.json";
 
 function displayWeather(weatherData) {
   // You can use @2x or @4x to make the icon bigger, or omit it for the standard size

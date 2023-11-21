@@ -14,15 +14,6 @@ $moonstone: #3CB8CDff;
 $gunmetal: #2D3442ff;
 $pumpkin: #F67A26ff;*/
 
-#hero-image img {
-    width: 100%;
-    height: auto;
-
-}
-.home-section {
-    margin: auto;
-    padding: 20px;
-}
 /* Header styles */
 
 header{
@@ -54,6 +45,21 @@ footer {
 }
 
 /* Homepage Styles */
+
+#hero-image img {
+    width: 100%;
+    height: auto;
+
+}
+.home-section {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+#current-events li {
+    text-decoration: none;
+}
 body {
    background-color: #E8F5F9ff;
 }
@@ -149,6 +155,16 @@ button #dark-mode {
 .hero h2::before {
     content: "Small ";
 
+}
+
+
+#weather {
+    text-align: center;
+    max-width: 200px;
+    background-color: #3CB8CDff;
+}
+#weather h2 {
+    color: #2D3442ff;
 }
 
 /*form styles */

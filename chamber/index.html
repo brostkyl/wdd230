@@ -29,6 +29,7 @@
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
     <script src="scripts/meetgreet.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -42,7 +43,7 @@
             <li> <a class="active" href="#home">Home</a></li>
             <li><a href="discover/">Discover</a></li>
             <li><a href="directory/">Directory</a></li>
-            <li><a href="join/">Join</a></li>
+            <li><a href="/join.html">Join</a></li>
         </ul>
     </nav>
     <div><button id="dark-mode">DARK</button></div>
@@ -70,14 +71,20 @@
         </section>
         <section id="weather" class="home-section">
             <h2>Weather</h2>
-            <h2><span id="temperature">76</span>&deg;F</h2>
+            <p><img id="weather-icon" src="images/hail.jpg" alt="weather icon"></p>
+            <p id="weather-desc">?</p>
+            <p id="weather-temp">?&deg;F | ? mph winds</p>
+            <p>Three Day Forecast</p>
+            <p id="forecast">?</p>
+
+            <!--h2><span id="temperature">76</span>&deg;F</h2>
             <h2 id="weatherdesc">☀️ Sunny</h2>
             <hr>
             <h3>Wind Speed: <span id="windspeed">10</span> mph</h3>
             <h3>Wind Chill: <span id="windchill">?</span>&deg;F</h3>
             <p>Element City<br>
                 56% Humidity
-            </p>
+            </p-->
         </section>
         <section id="spotlights" class="home-section">
              <section id="spotlight-fireplace" class="spotlight-card">
