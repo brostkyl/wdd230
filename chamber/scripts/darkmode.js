@@ -3,7 +3,7 @@ const bodyelt = document.querySelector("body")
 
 darkmode.addEventListener('click', ()=>{
     if (darkmode.textContent == "DARK" ){
-        document.documentElement.style.setProperty('--text-color', '#E8F5F9ff')
+        document.documentElement.style.setProperty('--text-color', 'white')
         document.documentElement.style.setProperty('--background-color', 'black')
         document.documentElement.style.setProperty('--hover-background-color', '#1E6E34ff')
         document.documentElement.style.setProperty('--hover-color', '#F44E3Aff')

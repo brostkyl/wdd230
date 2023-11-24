@@ -22,6 +22,17 @@
         color: #EDF6F9;
         font-family: "Mooli", sans-serif;
     }
+    header{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
 
     .hero h2::before {
         content: "Large ";
