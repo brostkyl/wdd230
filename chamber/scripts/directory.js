@@ -70,7 +70,7 @@ const displayMembers = (businesses) => {
         let card = document.createElement("section")
         card.innerHTML = `
         <img src="${business.imageURL}">
-        <p>${business.name}</p>
+        <p><b>${business.name}</b></p>
         <p>${business.address}</p>
         <p>${business.phone}</p>
         <p>${business.membershipLevel}</p>

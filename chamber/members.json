@@ -19,8 +19,8 @@
         {
             "name":"Melted Heart Glass Works",
             "address":"246 Water Way, Element City",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
+            "phone":"785-331-2478",
+            "websiteURL":"https:/www.meltedheartglass.com",
             "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/glass-spotlight.jpg",
             "membershipLevel":"Gold"
         },
@@ -33,27 +33,27 @@
             "membershipLevel":"Silver"
         },
         {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
+            "name":"City Park",
+            "address":"111 Element Street, City Center",
+            "phone":"1800-408-5679",
+            "websiteURL":"https:/www.citypark.org",
             "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/bridge.webp",
-            "membershipLevel":"Gold"
+            "membershipLevel":"Non-Profit"
         },
         {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https://brostkyl.github.io/wdd230/chamber/images/.webp",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"Gold"
+            "name":"415 Kitchen",
+            "address":"415 Flame Street, FireTown",
+            "phone":"145-415-5414",
+            "websiteURL":"https:/www.415kitchen.com",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/415.webp",
+            "membershipLevel":"Silver"
         },
         {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
+            "name":"Element City Theater",
+            "address":"626 Breezy Street, Element City",
+            "phone":"890-239-8292",
+            "websiteURL":"https:/www.element-city-theater.com",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/theater.webp",
             "membershipLevel":"Gold"
         }
     ]
