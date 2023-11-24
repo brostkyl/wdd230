@@ -300,6 +300,9 @@ input:invalid{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     justify-items: center;
 }
+.directory-cards p {
+    color: white;
+}
 
 .directory-cards section{
     text-align: center;    
@@ -309,6 +312,7 @@ input:invalid{
     background-color: #2D3442ff;
     padding: 1rem;
     margin: .5rem;
+    
 }
 
 .directory-cards section{

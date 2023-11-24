@@ -1,12 +1,52 @@
 {
     "members": [
         {
+            "name":"Fireplace",
+            "address":"375 Fire Pl, Fire Town, Element City",
+            "phone":"375-450-5000",
+            "websiteURL":"https:/www.fireplace.com",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/fireplace-spotlight.jpg",
+            "membershipLevel":"Gold"
+        },
+        {
+            "name":"City Hall",
+            "address":"1118 Main Street, Element City",
+            "phone":"1800-409-7008",
+            "websiteURL":"https:/www.city-hall.org",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/city-hall-spotlight.jpg",
+            "membershipLevel":"Gold"
+        },
+        {
+            "name":"Melted Heart Glass Works",
+            "address":"246 Water Way, Element City",
+            "phone":"8888888888",
+            "websiteURL":"https:/www.rexburg.org",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/glass-spotlight.jpg",
+            "membershipLevel":"Gold"
+        },
+        {
+            "name":"Clod's Delivery",
+            "address":"374 Fire Pl, Fire Town, Element City",
+            "phone":"858-726-9804",
+            "websiteURL":"https:/www.clods-delivery.com",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/clod.webp",
+            "membershipLevel":"Silver"
+        },
+        {
             "name":"Example Name",
             "address":"123 Main Street, Rexburg Id",
             "phone":"8888888888",
             "websiteURL":"https:/www.rexburg.org",
+            "imageURL":"https://brostkyl.github.io/wdd230/chamber/images/bridge.webp",
+            "membershipLevel":"Gold"
+        },
+        {
+            "name":"Example Name",
+            "address":"123 Main Street, Rexburg Id",
+            "phone":"8888888888",
+            "websiteURL":"https://brostkyl.github.io/wdd230/chamber/images/.webp",
             "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "membershipLevel":"Gold"
         },
         {
             "name":"Example Name",
@@ -14,47 +54,7 @@
             "phone":"8888888888",
             "websiteURL":"https:/www.rexburg.org",
             "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
-        },
-        {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
-        },
-        {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
-        },
-        {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
-        },
-        {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
-        },
-        {
-            "name":"Example Name",
-            "address":"123 Main Street, Rexburg Id",
-            "phone":"8888888888",
-            "websiteURL":"https:/www.rexburg.org",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "membershipLevel":"Gold"
         }
     ]
 }
