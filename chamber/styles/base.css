@@ -112,7 +112,9 @@ p, ul {
    }
 .active {
     background-color: #F44E3Aff;
+    color:  white;
 }
+
    nav ul li{
     flex: 1;
 }
