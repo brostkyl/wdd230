@@ -46,9 +46,11 @@
         justify-content: center;
     }
 
+
     #weather {
-        max-width: 300px;
+        max-width: 600px;
     }
+
 
     
 
