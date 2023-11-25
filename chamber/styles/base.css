@@ -61,6 +61,7 @@ footer {
 }
 #current-events  ul li {
     list-style-type: none;
+    color: var(--text-color);
 }
 body {
    background-color: #E8F5F9ff;

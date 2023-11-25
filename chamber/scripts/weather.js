@@ -45,6 +45,10 @@ getTheWeather();
 
 // Three Day Forecast
 
+const LAT = "-22.9141308";
+const LON = "-43.445982";
+const APIKEY = "631f60a5da38f8113b914a44c75080a6";
+const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
  
 // const weatherURL = "./data/3dayweather.json"
 const ONE_DAY = 24 * 60 * 60 * 1000
@@ -85,7 +89,7 @@ function showForecast(forecasts){
 
 async function fetchForecast() {
     try {
-      const response = await fetch(apiURL);
+      const response = await fetch(weatherURL);
       if (response.ok) {
         const data = await response.json();        
         showForecast(data.list);
