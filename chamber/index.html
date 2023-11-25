@@ -51,20 +51,21 @@
         <div class="hero">
         <p id="meetgreet">Join us for a meet and greet Wednesday night at 7:00 P.M. <span id="close-greet">X</span></p>
         <div class="hero-container">
-        <section id="hero-image">
+        <div id="hero-image">
         <!--source srcset="images/hero-small.webp" media="(max-width: 500px)">
         <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
         <img src="images/hero-large.webp" alt="friends sitting at table" width="2" heigth="1"-->
         <img src="images/element-cityscape-banner.webp" alt="Element City skyline header image">
-        </section>
-        <a class="join-button" href="join.html"><button>JOIN TODAY!</button></a>
+        </div>
+        <form class="join-button">
+            <button type="reset" onclick="location.href='join.html'">
+                JOIN TODAY!
+            </button>
+          </form>
+      
         </div>
     </div>
 </div>
-        <section id="cta" class="home-section">
-            <h2>Join the Team</h2>
-            <p>Join the Element City Chamber of Commerce today and become part of out colorful marketplace for growth and connections. </p>
-        </section>
         <section id="current-events" class="home-section">
             <h2>Current and Upcoming Events</h2>
             <ul> 
@@ -78,12 +79,7 @@
             <p id="weather-desc">?</p>
             <p id="weather-temp">?&deg;F | ? mph winds</p>
             <p>Three Day Forecast</p>
-            <p id="forecast">
-                <section>
-                    ?
-                </section>
-            </p>
-
+            <p id="forecast">?</p>
             <!--h2><span id="temperature">76</span>&deg;F</h2>
             <h2 id="weatherdesc">☀️ Sunny</h2>
             <hr>
@@ -93,7 +89,7 @@
                 56% Humidity
             </p-->
         </section>
-        <section id="spotlights" class="home-section">
+        <div id="spotlights" class="home-section">
              <section id="spotlight-fireplace" class="spotlight-card">
                 <h3>Fireplace</h3>
                 <img src="images/fireplace-spotlight.jpg" alt="Storefront of the Fireplace">
@@ -108,8 +104,8 @@
                 <h3>Melted heart Glass Works</h3>
                 <img src="images/glass-spotlight.jpg" alt="Ember creating glass vase">
                 <p>This small business is starting to catch on fire. Straight from Firetown's bustling center, budding artist Ember Lumen, has recently opened up a shop selling her unique creations.</p>
-        </section>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span></p>

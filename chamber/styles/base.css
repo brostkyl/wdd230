@@ -400,6 +400,7 @@ input:invalid{
     padding: 20px;
     color: white;
     text-align: center;
+    margin: 0px;
   }
 
   #close-greet {
