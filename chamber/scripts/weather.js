@@ -85,7 +85,7 @@ function showForecast(forecasts){
 
 async function fetchForecast() {
     try {
-      const response = await fetch(weatherURL);
+      const response = await fetch(apiURL);
       if (response.ok) {
         const data = await response.json();        
         showForecast(data.list);
