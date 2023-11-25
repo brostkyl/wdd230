@@ -1,7 +1,7 @@
 let meetdate = new Date()
 let dayofweek = meetdate.getDay()
 
-if (dayofweek == 4){
+if (dayofweek == 1, 2, 3){
     let meetgreet = document.getElementById("meetgreet");
     meetgreet.style.display = "block"
 }

@@ -169,6 +169,26 @@ button #dark-mode {
     content: "Small ";
 
 }
+.hero-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.hero .join-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin: auto 0;
+    text-decoration: none;
+}
+.join-button:hover {
+    color: var(--black);
+}
 
 
 #weather {
@@ -259,7 +279,12 @@ button {
     background-color: #F44E3Aff;
     padding: 0.5rem;
     margin: 1rem 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+button:hover {
+    background-color: #f26655;
+}
+
 input:valid{
     box-shadow: 3px 3px 3px black;
 }
