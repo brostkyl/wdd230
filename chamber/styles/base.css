@@ -209,6 +209,10 @@ button #dark-mode {
     text-align: center;
 }
 
+#discover-images h3{
+    color: var(--text-color)
+}
+
 
 #discover-images img{
    padding-top:30px
@@ -383,7 +387,7 @@ input:invalid{
 
 .directory-list .card-button{
     text-decoration: underline;
-    color: black;    
+    color: var(--text-color);    
 }
 
 
