@@ -5,6 +5,7 @@
     --hover-color: #2D3442ff;
     --heading-color: #1E6E34ff;
     --h1-color: #2D3442ff;
+    --join-text: black;
 }
 
 /*$cinnabar: #F44E3Aff;
@@ -108,7 +109,9 @@ p, ul {
 #nav-menu.showing {
     display:flex;
    }
-
+.active {
+    background-color: #F44E3Aff;
+}
    nav ul li{
     flex: 1;
 }
@@ -202,6 +205,9 @@ button #dark-mode {
     color: white;
 }
 /* Join Page*/
+.join p, li  {
+    color: var(--join-text);
+}
 .join {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));

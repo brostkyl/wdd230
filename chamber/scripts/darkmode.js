@@ -9,6 +9,7 @@ darkmode.addEventListener('click', ()=>{
         document.documentElement.style.setProperty('--hover-color', '#F44E3Aff')
         document.documentElement.style.setProperty('--heading-color', '#3CB8CDff')
         document.documentElement.style.setProperty('--h1-color', '#3CB8CDff')
+        document.documentElement.style.setProperty('--join-text', 'black')
         bodyelt.style.backgroundColor = "black";
         darkmode.textContent = "LIGHT"
     }
