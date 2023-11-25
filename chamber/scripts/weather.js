@@ -2,7 +2,7 @@ const LAT = "-22.9141308";
 const LON = "-43.445982";
 const APIKEY = "631f60a5da38f8113b914a44c75080a6";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
-const ONE_DAY = 24 * 60 * 60 * 1000
+
 // const apiURL = "./data/weather.json";
 
 function displayWeather(weatherData) {
@@ -47,7 +47,7 @@ getTheWeather();
 
  
 // const weatherURL = "./data/3dayweather.json"
-
+const ONE_DAY = 24 * 60 * 60 * 1000
 function showForecast(forecasts){
     // Get dates for next three days
     console.log(forecasts);
