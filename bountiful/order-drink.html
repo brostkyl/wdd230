@@ -30,15 +30,25 @@
 
     </header>
     <main id="main-order">
-        <p>Place your drink order below!</p>
+        <h2>Place your drink order below!</h2>
         <form id="orderform" method="GET" action="confirmation.html">
             <fieldset>
             <label class="myinput">First Name: <input id="firstname" name="firstname" type="text" required></label>
             <label class="myinput">E-mail: <input id="email" name="email" type="email" title="example: name123@gmail.com" required></label>
-            <label class="myinput">Phone Number: <input pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label>
+            <label class="myinput">Phone Number: <input type="tel" required></label>
             <label for="fruit-1">1st Fruit:</label>
-            <select id="fruit-dropdown" name="fruit">
+            <select id="fruit-dropdown" name="fruit1">
+                <option>select a fruit</option>
+            </select><br>
+            <label for="fruit-2">2nd Fruit:</label>
+            <select id="fruit-dropdown" name="fruit2">
+                <option>select a fruit</option>
+            </select><br>
+            <label for="fruit-3">3rd Fruit:</label>
+            <select id="fruit-dropdown" name="fruit3">
+                <option>select a fruit</option>
             </select>
+            <br><label class="myinput">Special Instructions: <input type="textarea"></label>
             <input id="timestamp" type="hidden" name="timestamp" value="">
             <p>Payment is recieved at drink pickup.</p>
             <button id="order-button">Place Drink Order!</button>

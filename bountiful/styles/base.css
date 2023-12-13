@@ -157,3 +157,33 @@ nav ul li a {
     padding-top: 20px;
     text-decoration-line: underline;
     }
+
+    /* Order Page*/
+    #orderform {
+        background-color: var(--orange);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 800;
+        color: var(--white);
+    }
+    #orderform fieldset {
+        border: none;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    #orderform input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      
+    }
+    #orderform button {
+        border-radius: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: var(--pink);
+        background-color: var(--white);
+        border: none;
+        font-size: 1rem;
+        font-weight:800;
+        padding: 20px;
+    }
