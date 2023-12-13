@@ -32,7 +32,7 @@ function displayWeather(weatherData) {
   // const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`
   const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`
   const desc = weatherData.weather[0].description;
-  const windSpeed = weatherData.wind.speed.toFixed(0);
+  const humidity = weatherData.main.humidity.toFixed(0);
   const temperature = weatherData.main.temp.toFixed(0);
 
   //Set up the weather icon
@@ -45,7 +45,10 @@ function displayWeather(weatherData) {
   weatherDesc.innerHTML = `${desc}`;
   
   let weatherTemp = document.getElementById("weather-temp");
-  weatherTemp.innerHTML = `${temperature}&deg;F | ${windSpeed} mph wind`;
+  weatherTemp.innerHTML = `${temperature}&deg;F`;
+
+  let weatherHum = document.getElementById("weather-humidity");
+  weatherHum.innerHTML = `Humidity: ${humidity}%`;
 }
 
 async function getTheWeather() {
@@ -95,3 +98,8 @@ for (i = 0;i<3; i++){
     document.getElementById("day"+(i+1)).innerHTML = weekday[CheckDay(i)];
 }
 
+/* Drink Number
+
+localStorage.setItem(`E${drinks.drinksnumber}`, JSON.stringify({ordernumber: drinks.ordernumber}))
+
+*/ 
