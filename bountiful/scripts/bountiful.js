@@ -78,7 +78,7 @@ for(i = 0; i<3; i++){
     document.getElementById("day" + (i+1) + "Icon").src = "http://openweathermap.org/img/wn/"+data.list[i].weather[0].icon+".png";
 }
 for(i=0;i<3;i++) {
-    document.getElementById("day" + (i+1) + "Desc").innerHTML = String(data.list[i].weather.description).toFixed(1);
+    document.getElementById("day" + (i+1) + "Desc").innerHTML = String(data.list[i].weather[0].description);
 }
 console.log(data)
 })
