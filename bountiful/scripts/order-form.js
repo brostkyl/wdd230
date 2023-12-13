@@ -10,6 +10,6 @@ const url = 'https://brostkyl.github.io/wdd230/bountiful/scripts/fruit.json';
 // Populate dropdown with list of fruits
 $.getJSON(url, function (data) {
   $.each(data, function (key, entry) {
-    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+    dropdown.append($('<option></option>').attr('value', entry.name).text(entry.name));
   })
 });
