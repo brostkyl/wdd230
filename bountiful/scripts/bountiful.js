@@ -65,10 +65,20 @@ async function getTheWeather() {
 getTheWeather();
 
 //Three day forecast
+function GetInfo() {
 
-for(i=0;i<5;i++){
-   document.getElementById("img" +(i+1)).src =`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`
+fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`)
+.then(response => response.json())
+.then(data => {
+
+for(i = 0; i<3; i++){
+    document.getElementById("img" + (i+1)).src = "http://openweathermap.org/img/wn/"+data.list[i].weather[0].icon+".png";
 }
+for(i=0;i<3;i++) {
+    document.getElementById("day" + (i+1) + "Desc").innerHTML = String(data.list[i].weather.description).toFixed(1);
+}
+console.log(data)
+})
 .catch(err => alert("Oops! Something went wrong"))
 }
 var d = new Date();
