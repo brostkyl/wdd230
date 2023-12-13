@@ -1,0 +1,118 @@
+/*Colors
+pink: #ef558d
+maroon: #620f34
+orange: #f78f1f
+green: #65bc47
+*/
+/*Site Wide Styles*/
+
+:root{
+    --pink: #ef558d;
+    --white: white;
+    --maroon: #620f34;    
+    --orange: #f78f1f;
+    --green: #65bc47;
+    --black: black;
+}
+
+h1,h2,h3,h4, p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Footer*/
+footer {
+    background-color: var(--pink);
+    color: var(--white);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h4 {
+    font-weight: 800;
+}
+.social-logo {
+    padding: 10px;
+ }
+ .resources a {
+    color: var(--white)
+ }
+
+/* Nav Styles */
+.menu-hide, .menu-show{
+    display: none;
+    background-color: var(--pink);
+    border: 1px var(--pink);
+    margin: auto 0;
+}
+.menu-hide.showing, .menu-show.showing {
+    display: block;
+   }
+#nav-menu {
+    display: none;
+   }
+#nav-menu.showing {
+    display:flex;
+   }
+   nav li a:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.active {
+    background-color: var(--white);
+    color:  var(--pink);
+    text-decoration-line: underline;
+}
+
+/*Home Page*/
+.hero {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.cards {
+    background-color: var(--maroon);
+    color: var(--white);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.order-button button {
+    border-radius: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--pink);
+    background-color: var(--white);
+    border: none;
+    font-size: 2rem;
+    font-weight:800;
+    padding: 50px;
+    
+}
+.hero.order-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin: auto 0;
+    text-decoration: none;
+}
+.order-button:hover {
+    color: blue;
+}
+
+.forecast {
+        background-color: var(--orange);
+        color: var(--white);
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        padding: 0px 20px;
+        text-align: center;
+}
+.forecast h3, .cards h3 {
+    padding-top: 20px;
+    text-decoration-line: underline;
+    }

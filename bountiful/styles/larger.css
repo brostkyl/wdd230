@@ -1,0 +1,56 @@
+@media screen and (min-width:1000px) {
+
+/*Nav Styles*/
+header {
+   position: relative;
+ }
+nav ul {
+    flex-direction: row;
+    list-style-type: none;
+ }
+ .menu-show, .menu-hide, .menu-hide.showing, .menu-show.showing {
+    display: none;
+   }
+#nav-menu {
+   position: absolute;
+   top: 1rem;
+   right: 2rem;
+   display: flex;
+}
+
+nav li a {
+   text-decoration: none;
+   font-family: 'Nunito Sans', sans-serif;
+   padding: 10px;
+   color: var(--black);
+}
+
+/*Home page*/
+#hero-image img {
+   width: 100%;
+   height: auto;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 50px;
+}
+.forecast {
+max-width: 800px;
+margin: auto;
+}
+
+/*footer*/
+footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 50px;
+}
+.footer-logo {
+   margin: auto;
+}
+.social-logo {
+   padding-right: 20px;
+}
+
+}
