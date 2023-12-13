@@ -16,6 +16,7 @@ nav ul {
    top: 1rem;
    right: 2rem;
    display: flex;
+
 }
 
 nav li a {
@@ -23,12 +24,23 @@ nav li a {
    font-family: 'Nunito Sans', sans-serif;
    padding: 10px;
    color: var(--black);
+   background-color: white;
+}
+nav ul li a {
+   background-color: var(--white);
+   color: var(--black);
+   margin: 20px;
 }
 
 /*Home page*/
 #hero-image img {
    width: 100%;
    height: auto;
+}
+.order-button button {
+   border-radius: 50px;
+   font-size: 2rem;
+   padding: 50px;
 }
 .grid-container {
    display: grid;
