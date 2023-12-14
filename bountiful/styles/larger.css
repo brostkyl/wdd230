@@ -47,9 +47,15 @@ nav ul li a {
    grid-template-columns: 1fr 1fr 1fr;
    gap: 50px;
 }
-.forecast {
+.icons {
 max-width: 800px;
 margin: auto;
+
+}
+
+#iconsContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*footer*/

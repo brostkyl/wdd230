@@ -71,20 +71,20 @@ getTheWeather();
 function GetInfo() {
     let  dates =[];
     
-    for(let i = 1; i < 4; i++) {
+    for (let i = 1; i < 4; i++) {
         let date = new Date();
         date.setDate(date.getDate() + i);
         dates.push(date.toString());
     }
-    console.log(dates);
 
+    console.log(dates);
 
 fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`)
 .then(response => response.json())
 .then(data => {
 
     for (let i = 0; i < data.list.length; i++) {
-        for (let j = 0; i < dates.length; j++) {
+        for (let j = 0; j < dates.length; j++) {
             let dataDate = new Date(data.list[i].dt_txt);
             let comparisonDate = new Date(dates[j]);
 
