@@ -49,14 +49,14 @@ footer h4 {
     padding: 10px;
  }
  .resources a {
-    color: var(--white)
+    color: var(--black)
  }
 
 /* Nav Styles */
 .menu-hide, .menu-show{
     display: none;
-    background-color: var(--pink);
-    border: 1px var(--pink);
+    background-color: var(--maroon);
+    border: 1px var(--maroon);
     margin: auto 0;
     
 }
@@ -132,7 +132,7 @@ nav ul li a {
 .order-button button {
     border-radius: 50px;
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--pink);
+    color: var(--maroon);
     background-color: var(--white);
     border: none;
     font-size: 1rem;
@@ -202,7 +202,7 @@ nav ul li a {
         padding: 30px;
         text-align: center;
     }
-    .about-cta p {
+    .about-cta p{
         padding-bottom: 50px;
     }
     #google-map {
