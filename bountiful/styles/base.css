@@ -125,6 +125,10 @@ nav ul li a {
     text-align: center;
     padding-bottom:20px;
 }
+.cards img {
+    padding-top: 20px;
+    max-height: 5rem;
+}
 .order-button button {
     border-radius: 50px;
     font-family: 'Nunito Sans', sans-serif;
@@ -189,4 +193,22 @@ nav ul li a {
         font-size: 1rem;
         font-weight:800;
         padding: 20px;
+    }
+
+    /* About */
+    .about-cta {
+        background-color: var(--maroon);
+        color: var(--white);
+        padding: 30px;
+        text-align: center;
+    }
+    .about-cta h3{
+        padding-bottom: 50px;
+    }
+    #google-map {
+        margin: 20px 0px;
+        max-width: 100%;
+    }
+    #main-about {
+        text-align: center;
     }

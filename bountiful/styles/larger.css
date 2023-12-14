@@ -71,4 +71,17 @@ footer {
    padding-right: 20px;
 }
 
+/*About*/
+.about-grid {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-gap: 50px;
+   margin: 30px
+
+}
+.about-cta button{
+   font-size: 1.5rem;
+   padding: 30px;
+        
+}
 }
