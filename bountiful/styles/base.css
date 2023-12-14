@@ -166,25 +166,25 @@ nav ul li a {
     }
 
     /* Order Page*/
-    #orderform {
+    #order-form {
         background-color: var(--orange);
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 800;
         color: var(--white);
     }
-    #orderform fieldset {
+    #order-form fieldset {
         border: none;
         padding: 20px;
         margin-bottom: 50px;
     }
-    #orderform input {
+    #order-form input {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
       
     }
-    #orderform button {
+    #order-form button {
         border-radius: 50px;
         font-family: 'Nunito Sans', sans-serif;
         color: var(--pink);
