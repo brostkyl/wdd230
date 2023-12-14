@@ -69,19 +69,43 @@ getTheWeather();
 
 //Three day forecast
 function GetInfo() {
+    let  dates =[];
+    
+    for(let i = 1; i < 4; i++) {
+        let date = new Date();
+        date.setDate(date.getDate() + i);
+        dates.push(date.toString());
+    }
+    console.log(dates);
+
 
 fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`)
 .then(response => response.json())
 .then(data => {
 
-for(i = 0; i<3; i++){
+    for (let i = 0; i < data.list.length; i++) {
+        for (let j = 0; i < dates.length; j++) {
+            let dataDate = new Date(data.list[i].dt_txt);
+            let comparisonDate = new Date(dates[j]);
+
+            if (dataDate.getFullYear() === comparisonDate.getFullYear() &&
+            dataDate.getMonth() === comparisonDate.getMonth() &&
+            dataDate.getDate() === comparisonDate.getDate() && dataDate.getHours() == 9) {
+                document.getElementById("day" + (j + 1) + "Icon").src = "http://openweathermap.org/img/wn/"+data.list[i].weather[0].icon+".png";
+                document.getElementById("day" + (j + 1) + "Desc").innerHTML = String(data.list[i].weather[0].description);
+            }
+
+        }
+    }})
+
+/*for(i = 0; i<3; i++){
     document.getElementById("day" + (i+1) + "Icon").src = "http://openweathermap.org/img/wn/"+data.list[i].weather[0].icon+".png";
 }
 for(i=0;i<3;i++) {
     document.getElementById("day" + (i+1) + "Desc").innerHTML = String(data.list[i].weather[0].description);
 }
 console.log(data)
-})
+}) */
 .catch(err => alert("Oops! Something went wrong"))
 }
 var d = new Date();
