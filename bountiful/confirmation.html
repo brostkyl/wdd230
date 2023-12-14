@@ -30,18 +30,81 @@
         <h1 class="main-heading">Bountiful Foods Smoothie Co</h1>
 
     </header>
-    <main id="main-order">
+    <main id="main-conf">
         <h2>Your order has been successful!</h2>
-        <section>
-            <p>Your name is <span id="yourname"></span>.</p>
-            <p>Your email address is <span id="youremail"></span>.</p>
-            <p>Your phone number is <span id="yournumber"></span>.</p>
-            <p>You picked the following fruits</span>:</p>
-            <p><span id="yourfruit1"></span></p>
-            <p><span id="yourfruit2"></span></p>
-            <p><span id="yourfruit3"></span></p>
-            <p>Order placed<span id="yourtimestamp"></span></p>
-        </section>
+        <p>Your order will be ready in 10-15 minutes.</p>
+        <section id="confirm-order">
+            <section id="confirm-action">
+            </section>
+            <section id="confirm-output">
+              <h2>Order Summary</h2>
+              <table id="order-table">
+                <tr>
+                  <th>Order Date:</th>
+                  <td><span id="orderdate"></span></td>
+                </tr>
+                <tr>
+                  <th>Name:</th>
+                  <td><span id="yourname"></span></td>
+                </tr>
+                <tr>
+                  <th>Email:</th>
+                  <td><span id="youremail"></span></td>
+                </tr>
+                <tr>
+                  <th>Phone Number:</th>
+                  <td><span id="yourphone"></span></td>
+                </tr>
+                <tr>
+                  <th rowspan="3">Fruit Choices:</th>
+                  <td>
+                    <span class="yourfruit1"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><span class="yourfruit2"></span></td>
+                </tr>
+                <tr>
+                  <td><span class="yourfruit3"></span></td>
+                </tr>
+                <tr>
+                  <th>Special Instructions:</th>
+                  <td><span id="yourinstructions"></span></td>
+                </tr>
+              </table>
+            </section>
+    
+            <section id="confirm-nutrition">
+              <h3>Nutrition Information</h3>
+              <p>
+                for a <span class="yourfruit1"></span>,
+                <span class="yourfruit2"></span>, and
+                <span class="yourfruit3"></span> smoothie
+              </p>
+            
+              <table id="nutrition-table">
+                <tr>
+                  <th>Total Carbohydrates:</th>
+                  <td><span id="carbs"></span></td>
+                </tr>
+                <tr>
+                  <th>Total Protein:</th>
+                  <td><span id="protein"></span></td>
+                </tr>
+                <tr>
+                  <th>Total Fat:</th>
+                  <td><span id="fat"></span></td>
+                </tr>
+                <tr>
+                  <th>Total Sugar:</th>
+                  <td><span id="sugar"></span></td>
+                </tr>
+                <tr>
+                  <th>Total Calories:</th>
+                  <td><span id="calories"></span></td>
+                </tr>
+              </table>
+            </section>
     </main>
     <footer>
         <div class="footer-logo">

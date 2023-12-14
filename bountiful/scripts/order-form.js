@@ -1,31 +1,30 @@
-let dropdown = $('#fruit-dropdown');
+const fruitURL = "./scripts/fruit.json";
+const dropdowns = document.querySelectorAll(".fruits");
 
-dropdown.empty();
-
-dropdown.append('<option selected="true" disabled>select a fruit</option>');
-dropdown.prop('selectedIndex', 0);
-
-const url = 'https://brostkyl.github.io/wdd230/bountiful/scripts/fruit.json';
-
-// Populate dropdown with list of fruit
-$.getJSON(url, function (data) {
-  $.each(data, function (key, entry) {
-    dropdown.append($('<option></option>').attr('value', entry.name).text(entry.name));
-  })
-});
-
-let orderform = document.getElementById("orderform")
-let sudmitButton = document.getElementById("order-button")
- submitButton.addEventListener('click', (Event) =>{
- alert("Order Placed!")
- window.open(confirmation.html)
- })
-
-/*myform.addEventListener('submit', (event)=>{
-    let food = document.getElementById("food").value 
-    if (food.toLowerCase()) != 'pizza'){
-        alert('Enter Valid Input')
-        event.preventDefault();
+function populateDropdowns(data) {
+  fruitNames = data.map((fruit) => fruit.name);
+  dropdowns.forEach((dropdown) => {
+    for (const fruitName of fruitNames) {
+      let option = document.createElement("option");
+      option.value = fruitName;
+      option.textContent = fruitName;
+      dropdown.appendChild(option);
     }
-})*/
+  });
+}
 
+async function getFruit() {
+  try {
+    const response = await fetch(fruitURL);
+    if (response.ok) {
+      const data = await response.json();
+      populateDropdowns(data);
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+getFruit();

@@ -31,24 +31,30 @@
     </header>
     <main id="main-order">
         <h2>Place your drink order below!</h2>
-        <form id="orderform" method="GET" action="confirmation.html">
+        <form method="get" action="onfirmation.html" id="order-form">
             <fieldset>
             <label class="myinput">First Name: <input id="firstname" name="firstname" type="text" required></label>
             <label class="myinput">E-mail: <input id="email" name="email" type="email" title="example: name123@gmail.com" required></label>
-            <label class="myinput">Phone Number: <input type="tel" required></label>
-            <label for="fruit-1">1st Fruit:</label>
+            <label class="myinput">Phone Number: <input id="phone" type="tel" required></label>
+            <!--label for="fruit-1">1st Fruit:</label>
             <select id="fruit-dropdown" name="fruit1">
                 <option>select a fruit</option>
-            </select><br>
-            <label for="fruit-2">2nd Fruit:</label>
-            <select id="fruit-dropdown" name="fruit2">
-                <option>select a fruit</option>
-            </select><br>
-            <label for="fruit-3">3rd Fruit:</label>
-            <select id="fruit-dropdown" name="fruit3">
-                <option>select a fruit</option>
+            </select><br-->
+            <label class="myinput">Fruit Choice 1:                            
+            <select id="fruit1" name="fruit1" class="fruits" required>
+              <option value="" disabled selected>(select an option)</option>
+            </select></label><br>
+          <label class="myinput">Fruit Choice 2:                            
+            <select id="fruit2" name="fruit2" class="fruits" required>
+              <option value="" disabled selected>(select an option)</option>
+            </select></label><br>
+          <label class="myinput">Fruit Choice 3:                            
+            <select id="fruite3" name="fruit3" class="fruits" required>
+              <option value="" disabled selected>(select an option)</option>
             </select>
-            <br><label class="myinput">Special Instructions: <input type="textarea"></label>
+        </label><br>
+          <label class="myinput" id="instrctn-grp">Special Instructions (optional):<br><textarea id="instructions" name="instructions"></textarea>
+          </label>
             <input id="timestamp" type="hidden" name="timestamp" value="">
             <p>Payment is recieved at drink pickup.</p>
             <button id="order-button">Place Drink Order!</button>
