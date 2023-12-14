@@ -69,7 +69,7 @@ if (params.get("instructions") == "") {
 yourinstructions.textContent = instructions;
 
 // Total amount of carbohydrates, protein, fat, sugar, and calories
-const dataURL = "./data/fruit.json";
+const dataURL = "./scripts/fruit.json";
 
 const fruits = [];
 fruits.push(fruit1);
