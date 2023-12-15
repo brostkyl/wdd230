@@ -7,7 +7,7 @@ green: #65bc47
 /*Site Wide Styles*/
 
 :root{
-    --pink: #ef558d;
+    --pink: #d82a69;
     --white: white;
     --maroon: #620f34;    
     --orange: #f78f1f;
@@ -49,7 +49,7 @@ footer h4 {
     padding: 10px;
  }
  .resources a {
-    color: var(--black)
+    color: var(--white)
  }
 
 /* Nav Styles */
@@ -124,6 +124,7 @@ nav ul li a {
     padding: 0px 20px;
     text-align: center;
     padding-bottom:20px;
+    margin: 30px 10px;
 }
 .cards img {
     padding-top: 20px;
@@ -132,7 +133,7 @@ nav ul li a {
 .order-button button {
     border-radius: 50px;
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--maroon);
+    color: var(--pink);
     background-color: var(--white);
     border: none;
     font-size: 1rem;
@@ -142,8 +143,11 @@ nav ul li a {
 .hero .order-button {
     display: flex;
     position: absolute;
+    align-items: center;
+    margin: auto 0;
     text-decoration: none;
     top: 70px;
+    margin-left: -4rem;
 }
 .order-button:hover {
     color: blue;
